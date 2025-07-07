@@ -21,6 +21,8 @@ const Contact = () => {
         <div className="contact">
             <div>
                 <h1>Contact Me</h1>
+                <p>Email: </p>
+                <p>LinkedIn: </p>
                 <form>
                     <label>
                         Name:
