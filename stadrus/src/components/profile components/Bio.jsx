@@ -1,3 +1,5 @@
+import './Bio.css';
+
 const Bio = () => {
     return (
         <div className="bio-content">

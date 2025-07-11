@@ -1,4 +1,5 @@
-import profile from '../images/profile.svg';
+import profile from '../../images/profile.svg';
+import './Home.css';
 
 const Home = () => {
     return (
@@ -6,8 +7,10 @@ const Home = () => {
         <div className="home-content">
           <h1 className="home-header">Welcome to My Professional Portfolio</h1>
         </div>
-        <div className="home-image-container">
+        <div>
+        <section className="home-image-container">
           <img className="home-image" src={profile} alt="Professional Portfolio" />
+        </section>
         <div className="home-description-card">      
         <h2 className="home-subtitle">Stacey Tadrus</h2>
         <h3 className="home-role">Jr Software Developer</h3>

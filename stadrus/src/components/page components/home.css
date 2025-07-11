@@ -1,0 +1,83 @@
+.home-header{
+    font-size: 2rem;
+    color: #eee4db;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+.home-text{
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    color: #eee4db;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+.home-subtitle{
+    color: #4f46ef;
+    text-decoration: none;
+}
+.home-role{
+    font-size: 1.5rem;
+    color: #4f46ef;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
+.home-image{
+    max-width: 100%;
+    height: 350px;
+    border-radius: 25px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-image:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.home-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: #f9f9fb;
+}   
+.home-description-card{
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.home-button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.home-button{
+    background-color: #4f46ef;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.home-button:hover{
+    background-color: #4338ca;
+}
+.home-button:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(79, 70, 239, 0.5);
+}

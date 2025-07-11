@@ -1,3 +1,5 @@
+import './Projects.css';
+
 const Projects = () => {
     return (
         <div className="projects-content">
@@ -17,3 +19,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

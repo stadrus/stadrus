@@ -1,0 +1,36 @@
+.bio-wrapper{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background: #f9f9fb;
+}
+.bio-content{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: auto;
+    padding: 2rem;
+    align-items: flex-start;
+    text-align: center;
+}
+.bio-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f5f7fa;
+}
+.bio-card{
+    max-width: 500px;
+}
+.bio-title{
+    font-size: 1.2rem;
+    color: #4f46ef;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.bio-bio{
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}

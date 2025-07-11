@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes, } from 'react-router'
 import './App.css'
-import Header from './components/Header'
-import Resume from './components/Resume'
-import Home from './components/Home'
-import Contact from './components/Contact'
-import Projects from './components/Projects'
-import Profile from './components/Profile'
+import Header from './components/page components/Header'
+import Resume from './components/page components/Resume'
+import Home from './components/page components/Home'
+import Contact from './components/page components/Contact'
+import Projects from './components/profile components/Projects'
+import Profile from './components/profile components/Profile'
 
 
 function App() {
