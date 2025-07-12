@@ -34,19 +34,6 @@
         font-size: medium;
     }
 }
-    .bio-wrapper, .skills-wrapper, .projects-wrapper {
-        padding: 1rem;
-    }
-    .bio-content, .skills-content, .projects-content {
-        padding: 1rem;
-    }
-    .bio-card, .skills-card, .projects-card {
-        max-width: 100%;
-    }
-    .skills-content {
-        align-items: center;
-    }
-
 @media (max-width: 480px) {
     .header-h1 {
         font-size: large;

@@ -4,11 +4,8 @@ import './Home.css';
 const Home = () => {
     return (
       <div className="home-container">
-        <div className="home-content">
-          <h1 className="home-header">Welcome to My Professional Portfolio</h1>
-        </div>
-        <div>
-        <section className="home-image-container">
+        <div className="home-image-container">
+        <section>
           <img className="home-image" src={profile} alt="Professional Portfolio" />
         </section>
         <div className="home-description-card">      
