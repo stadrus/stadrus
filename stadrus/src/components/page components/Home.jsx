@@ -17,11 +17,11 @@ const Home = () => {
           <p className="home-text">Explore my skills, projects, and experience as a Jr Software Developer.</p>
         </div>
         </div>
-        <div className="home-button-container">
-          <button className="home-button">View My Profile</button>
-          <button className="home-button">View My Projects</button>
-          <button className="home-button">View My Resume</button> 
-          <button className="home-button">Contact Me</button>
+        <div className="page-button-container">
+          <button className="page-button">View My Profile</button>
+          <button className="page-button">View My Projects</button>
+          <button className="page-button">View My Resume</button> 
+          <button className="page-button">Contact Me</button>
         </div>
       </div>
   );

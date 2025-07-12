@@ -1,39 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f8efef;
-}
-.header-h1{
-    font-size:x-large;
-    color: brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: auto;
-    text-align: left;
-    padding: 1rem;
-    background: #f5f7fa;
-    border-bottom: 2px solid #ccc;
-}
-.header-title{
-    font-size: large;
-}
-nav {
-    display: flex;
-    justify-content: right;
-    background: #0a0a0a;
-    padding: 1rem;
-}
-.nav-bar {
-    display: flex;
-    gap: 1.5rem;
-}
-.nav-bar a {
-    color: #eee4db;
-    text-decoration: none;
-    font-weight: 500;
-}
-.nav-bar a:hover {
-    text-decoration: underline;
-}
+
 .footer{
     background: #222;
     color: #fff;

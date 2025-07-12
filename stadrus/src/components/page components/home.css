@@ -1,6 +1,6 @@
 .home-header{
     font-size: 2rem;
-    color: #eee4db;
+    color: #703706;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
@@ -9,7 +9,7 @@
     font-size: 1.2rem;
     box-sizing: border-box;
     padding: 1rem;
-    color: #eee4db;
+    color: 703706;
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2rem;
@@ -17,12 +17,12 @@
     line-height: 1.6;
 }
 .home-subtitle{
-    color: #4f46ef;
+    color: #703706;
     text-decoration: none;
 }
 .home-role{
     font-size: 1.5rem;
-    color: #4f46ef;
+    color:#703706;
     font-weight: 500;
     margin-top: 1rem;
     text-align: center;
@@ -49,7 +49,7 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background: #f9f9fb;
+    background: #703706;
 }   
 .home-description-card{
     font-size: 1.2rem;
@@ -59,14 +59,14 @@
     margin-left: auto;
     text-align: center;
 }
-.home-button-container{
+.page-button-container{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
-.home-button{
-    background-color: #4f46ef;
-    color: #fff;
+.page-button{
+    background-color: #eee4db;
+    color: #703706;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 8px;
@@ -74,10 +74,10 @@
     font-size: 1rem;
     text-decoration: none;
 }
-.home-button:hover{
-    background-color: #4338ca;
+.page-button:hover{
+    background-color: #;
 }
-.home-button:focus{
+.page-button:focus{
     outline: none;
     box-shadow: 0 0 0 2px rgba(79, 70, 239, 0.5);
 }

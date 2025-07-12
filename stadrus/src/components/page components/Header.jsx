@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import './header.css';
 
+
 const Header = () => {
     return (
         <div className="header">
