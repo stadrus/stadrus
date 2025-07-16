@@ -1,11 +1,9 @@
 .bio-wrapper{
-    padding: 2rem;
+    padding: 0 auto;
     display: flex;
     justify-content: center;
-    background: #f9f9fb;
 }
 .bio-content{
-    background: #fff;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -13,19 +11,21 @@
     padding: 2rem;
     align-items: flex-start;
     text-align: center;
+    float: right;
 }
 .bio-container{
     display: flex;
     justify-content: center;
     padding: 2rem;
-    background: #f5f7fa;
+    background: #ffeb58;
+    border-radius: 90px 90px;
 }
 .bio-card{
     max-width: 500px;
 }
 .bio-title{
     font-size: 1.2rem;
-    color: #4f46ef;
+    color: black;
     font-weight: 500;
     margin-bottom: 1rem;
 }

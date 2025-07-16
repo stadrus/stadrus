@@ -1,7 +1,7 @@
 .hero-image{
     background: url(../../images/yellowbackground.svg) no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     position: relative;
 }
 /* .hero-text{
@@ -68,13 +68,17 @@
 .page-button{
     background-color: black;
     color: white;
-    padding: 0.5rem 1rem;
     border: none;
     border-radius: 80px 80px;
     cursor: pointer;
     font-size: 1rem;
     text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 15px;
+    gap: 15px;
+    
 }
+
 .page-button:hover{
     background-color: #db9b63;
 }
