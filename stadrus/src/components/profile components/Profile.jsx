@@ -1,6 +1,7 @@
 import profile from "../../images/profile.svg"
 import ExperienceButton from "../../buttons/ExperienceButton";
 import ProjectsButton from "../../buttons/ProjectsButton";
+import Skills from "./Skills";
 
 const Profile = () => {
     return (
@@ -15,12 +16,16 @@ const Profile = () => {
                     <div className="details-container">
                         <ExperienceButton />
                         <h3>Experiences</h3>
-                        <p>Enter caption here</p>
+                        <p>Marketing</p>
+                        <p>Software Development</p>
                     </div>
                     <div className="details-container">
-                        <ProjectsButton />
                         <h3>Education</h3>
-                        <p>Place EDU Here</p>
+                        <p>LaunchCode</p>
+                        <p>Baker University</p>
+                    </div>
+                    <div>
+                        <Skills />
                     </div>
                 </div>
             </div>

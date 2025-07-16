@@ -5,13 +5,30 @@ const Skills = () => {
     <div className="skills-content">
         <div className="skills-wrapper">
             <div className="skills-card">
-                <h3 className="skills-title">Skills</h3>
-                <ul className="skills-list">
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
+            <p>Explore My</p>
+                <h3 className="title">Skills</h3>
+                <div className="skills-details-container">
+                    <div className="about-containers">
+                    <div className="details-container">
+                    <article>
+                    <ul className="skills-list">
+                        <li>Java</li>
+                        <p>Beginner</p>
+                        <li>JavaScript</li>
+                        <p>Beginner</p>
+                        <li>HTML</li>
+                        <p>Beginner</p>
+                        <li>CSS</li>
+                        <p>Beginner</p>
+                        <li>React</li>
+                        <p>Beginner</p>
+                        <li>MySQL Workbench</li>
+                        <p>Beginner</p>
+                    </ul>
+                    </article>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
