@@ -6,6 +6,7 @@ import Home from './components/page components/Home'
 import Contact from './components/page components/Contact'
 import Projects from './components/profile components/Projects'
 import Profile from './components/profile components/Profile'
+import Footer from './components/page components/Footer'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/Profile" element={<Profile />} />
               </Routes>
           </div>
+          <Footer />
       </BrowserRouter>
     </>
   )

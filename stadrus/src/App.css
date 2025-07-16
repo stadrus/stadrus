@@ -1,20 +1,18 @@
-
+body{
+   margin: auto;
+   padding: auto;
+   margin-bottom: auto;
+}
 .footer{
-    background: #222;
-    color: #fff;
+    background: #ffeb58;
+    color: black;
     text-align: center;
-    padding: 1rem;
+    padding: 0;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 2rem;
-}
-.footer a{
-    color: #4f46ef;
-    text-decoration: none;
-}
-.footer a:hover{
-    text-decoration: underline;
+    margin-top: 0rem;
+    margin-bottom: auto;
 }
 @media (max-width: 768px) {
     .bio-content, .skills-content, .projects-content {

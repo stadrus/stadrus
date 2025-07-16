@@ -1,8 +1,30 @@
-.home-content{
-    color: #703706;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+.hero-image{
+    background: url(../../images/yellowbackground.svg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
 }
+/* .hero-text{
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    padding: 0;
+    color: 703706;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-right: 0 auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 1.6;
+    position: absolute;
+} */
+ .hero-text{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
 .home-header{
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     justify-content: center;
@@ -13,6 +35,7 @@
     text-decoration: none;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 13rem;
 }
 .home-role{
     font-size: 1.5rem;
@@ -20,33 +43,6 @@
     font-weight: 500;
     margin-top: 1rem;
     text-align: center;
-}
-.home-text{
-    font-size: 1.2rem;
-    box-sizing: border-box;
-    padding: 1rem;
-    color: 703706;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 2rem;
-    text-align: center;
-    line-height: 1.6;
-}
-.home-image{
-    max-width: 100%;
-    height: 350px;
-    border-radius: 25px;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 1px;
-    display: flex;
-    float: left;
-}
-.home-image:hover{
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
 
 .home-description{
@@ -70,11 +66,11 @@
     margin-top: 2rem;
 }
 .page-button{
-    background-color: #eee4db;
-    color: #703706;
+    background-color: black;
+    color: white;
     padding: 0.5rem 1rem;
     border: none;
-    border-radius: 80px 20px;
+    border-radius: 80px 80px;
     cursor: pointer;
     font-size: 1rem;
     text-decoration: none;
