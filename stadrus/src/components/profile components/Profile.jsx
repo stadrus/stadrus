@@ -2,6 +2,7 @@ import profile from "../../images/profile.svg"
 import ExperienceButton from "../../buttons/ExperienceButton";
 import ProjectsButton from "../../buttons/ProjectsButton";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 const Profile = () => {
     return (
@@ -26,6 +27,9 @@ const Profile = () => {
                     </div>
                     <div>
                         <Skills />
+                    </div>
+                    <div>
+                        <Projects />
                     </div>
                 </div>
             </div>

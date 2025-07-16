@@ -1,19 +1,28 @@
 import './Projects.css';
+import CalSync from "../../images/CalSync.svg"
+import SoCalSync from "../../images/SoCalSync.svg"
+import NBA from "../../images/NBA.svg"
 
 const Projects = () => {
     return (
-        <div className="projects-content">
-            <div className="projects-wrapper">
-                <div className="projects-card">
-                    <h3 className="projects-title">Projects</h3>
-                    <ul className="projects-list">
-                        <li>Project 1</li>
-                        <li>Project 2</li>
-                        <li>Project 3</li>
-                        <li>Project 4</li>
-                    </ul>
-                </div>
+        <div className="projects">
+        <p className='text-p1'>Browse My Recent Projects</p>
+        <h1>Projects</h1>
+            <div className="project-details-container">
+            <div className='about-contianers'>
+            <div className='details-container color-container'>
+            <div className='article-container'>
+            <img src={NBA} alt='NBA logo'></img>
             </div>
+                <div>
+                    <h2 className='project-title'>Project One</h2>
+                </div>
+            
+            <img src={CalSync} alt='calsync logo'></img>
+            <img src={SoCalSync} alt='calsync logo'></img>    
+            </div>
+            </div>
+            </div>     
         </div>
     );
 };
