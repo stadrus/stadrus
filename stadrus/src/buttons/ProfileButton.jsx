@@ -1,17 +1,17 @@
 import { useNavigate } from "react-router";
 
-function ExperienceButton () {
+function ProfileButton () {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate('../Resume');
+        navigate('../Profile');
     }
     return(
         <button className="page-button" onClick={handleClick}>
-            <i className="fa-solid fa-briefcase"></i> Experience
+            <i className="fa-solid fa-ghost fa-fade"></i>
         </button>
     )
     
 }
 
-export default ExperienceButton
+export default ProfileButton

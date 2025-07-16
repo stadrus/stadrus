@@ -4,7 +4,7 @@ function LinkedInButton () {
     }
     return(
         <button className="page-button" onClick={handleClick}>
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
         </button>
     )
     

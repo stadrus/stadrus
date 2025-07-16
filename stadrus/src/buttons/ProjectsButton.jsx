@@ -7,7 +7,7 @@ function ProjectsButton () {
     }
     return(
         <button className="page-button" onClick={handleClick}>
-            <i class="fa-solid fa-bars-progress"></i> Projects
+            <i className="fa-solid fa-bars-progress"></i> Projects
         </button>
     )
     

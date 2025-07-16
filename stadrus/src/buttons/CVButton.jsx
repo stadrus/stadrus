@@ -3,8 +3,7 @@ function CVButton () {
         window.open('https://www.linkedin.com/in/stacey-tadrus/', '_blank', 'noopener,noreferrer');
     }
     return(
-        <button className="page-button" onClick={handleClick}>
-            Download CV
+        <button className="page-button" onClick={handleClick}> <i className="fa-solid fa-download"></i>
         </button>
     )
     

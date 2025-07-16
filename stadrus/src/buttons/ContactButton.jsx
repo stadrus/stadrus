@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
 
-function ExperienceButton () {
+function ContactButton () {
     const navigate = useNavigate();
 
     const handleClick = () => {
@@ -8,10 +8,10 @@ function ExperienceButton () {
     }
     return(
         <button className="page-button" onClick={handleClick}>
-            <i className="fa-solid fa-briefcase"></i> Experience
+            <i className="fa-solid fa-envelope"></i>
         </button>
     )
     
 }
 
-export default ExperienceButton
+export default ContactButton
