@@ -1,3 +1,64 @@
+.skills-content{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.skills-wrapper{
+    width: 100%;
+    max-width: 700px;
+}
+.skills-details-container{
+    border: 1px solid #333;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
 .skills-list{
-    list-style-image: url(../../images/certificate-solid.svg);
+   display: flex;
+   flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.skills-item{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0, 0.1);
+}
+.skills-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.skills-card{
+    border-radius: 30px;
+    max-width: 600px;
+    padding: 2rem;
+    background: white;
+
+}
+.skills-containers{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    align-items: flex-start;
+}
+.details-container{
+     background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+.skills-title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }

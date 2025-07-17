@@ -22,7 +22,7 @@ const Profile = () => {
                     </div>
                 </div>
                 </div>
-                    <div className="profile-details-container">
+                    <div className="details-container">
                             <h3>Experiences</h3>
                             <p>Marketing</p>
                             <p>Software Development</p>
