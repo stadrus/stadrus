@@ -8,18 +8,6 @@ import './Home.css';
 const Home = () => {
     return (
       <div className="home-container">
-      <div className="background-container">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
       <div className="hero-image"></div>
       <div className='home-text'>
         <h4>Hello, I'm</h4>

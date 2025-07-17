@@ -5,7 +5,7 @@ import Resume from './components/page components/Resume'
 import Home from './components/page components/Home'
 import Contact from './components/page components/Contact'
 import Projects from './components/profile components/Projects'
-import Profile from './components/profile components/Profile'
+import Profile from './components/page components/Profile'
 import Footer from './components/page components/Footer'
 
 

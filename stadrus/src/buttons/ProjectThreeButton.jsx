@@ -1,6 +1,6 @@
 function ProjectThreeButton () {
     const handleClick = () => {
-        window.open('https://github.com/stadrus/CalSync-App', '_blank', 'noopener,noreferrer');
+        window.open('https://github.com/stadrus/socalsync-unit-2-final-stacey-t', '_blank', 'noopener,noreferrer');
     }
     return(
         <button className="page-button" onClick={handleClick}>GitHub</button>

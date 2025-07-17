@@ -4,7 +4,7 @@ function ContactButton () {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate('../Resume');
+        navigate('../Contact');
     }
     return(
         <button className="page-button" onClick={handleClick}>
