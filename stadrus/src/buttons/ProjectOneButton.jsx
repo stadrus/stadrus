@@ -3,7 +3,7 @@ function ProjectOneButton () {
         window.open('https://nbakc.org/', '_blank', 'noopener,noreferrer');
     }
     return(
-        <button className="page-button" onClick={handleClick}>NBAKC.ORG</button>
+        <button className="page-button" onClick={handleClick}>nbakc.org</button>
     )
     
 }

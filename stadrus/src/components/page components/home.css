@@ -1,14 +1,14 @@
-.home-header{
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    justify-content: center;
-    align-items: center;
+.home-container{
+    margin: 0 auto;
+    padding: auto ;
+    
 }
 .hero-image{
-    background: url(../../images/yellowbackground.svg) no-repeat;
+    background: url(../../images/yellowbackground.svg);
     background-size: fill;
     height: 900px;
     position: relative;
-    z-index: -1;
+   
 }
 
  .home-text{

@@ -8,7 +8,7 @@ function ExperienceButton () {
     }
     return(
         <button className="page-button" onClick={handleClick}>
-            <i className="fa-solid fa-briefcase"></i> Experience
+            <i className="fa-solid fa-briefcase"></i>
         </button>
     )
     

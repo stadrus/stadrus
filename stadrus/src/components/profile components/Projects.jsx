@@ -14,20 +14,20 @@ const Projects = () => {
             <div className="project-row">
             <div className='project-card'>
                 <div className='project-card'>
-                <img className='project-img'src={NBA} alt='NBA logo'></img>
-                <h2 className='project-title'>Project One</h2>
-                <div className='pro-button'>
-                    <ProjectOneButton />
-                </div>
+                        <img className='project-img'src={NBA} alt='NBA logo'></img>
+                        <h2 className='project-title'>Project One</h2>
+                    <div className='pro-button'>
+                        <ProjectOneButton />
+                    </div>
                 </div>
             </div>
             <div className='project-card'>
                 <div className='project-card'>
-                <img className="project-img" src={CalSync} alt='calsync logo'></img>
-                <h2 className='project-title'>Project Two</h2>
-                <div className='pro-button'>
-                    <ProjectTwoButton />
-                </div>
+                        <img className="project-img" src={CalSync} alt='calsync logo'></img>
+                        <h2 className='project-title'>Project Two</h2>
+                    <div className='pro-button'>
+                        <ProjectTwoButton />
+                    </div>
                 </div>
             </div>
             <div className='project-card'>

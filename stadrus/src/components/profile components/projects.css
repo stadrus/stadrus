@@ -1,6 +1,6 @@
 .projects{
-    margin: 0 auto;
-    padding: 2rem;
+    padding: 0rem;
+    margin-bottom: 10rem;
 }
 .project-row{
     display: flex;
@@ -23,7 +23,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
     justify-content: space-around;
 }
@@ -31,6 +31,10 @@
     border-radius: 1rem;
     width: 80%;
     height: 80%;
+}
+.pro-button{
+    justify-content: center;
+    margin-left: 30px;
 }
 @media (max-width: 600px) {
     .project-card{

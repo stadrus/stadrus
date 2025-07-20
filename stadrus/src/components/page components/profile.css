@@ -1,5 +1,8 @@
-.profile{
-   padding: 2rem;
+section,
+.profile,
+.profile-container{
+    margin: 0;
+   padding: 0;
 }
 .profile-container{
     display: flex;
@@ -7,6 +10,7 @@
     justify-content: center;
     gap: 4rem;
     align-items: flex-start;
+    
 }
 .left-side{
     display: flex;
@@ -30,14 +34,27 @@
 .profile-details-container{
     display: flex;
     flex-direction: column;
-    gap: 0rem;
+    gap: 2rem;
     float: right;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.exp-edu-row{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.exp-edu-row .details-container{
+    flex: 1;
+    min-width: 250px;
 }
 .details-container{
     background-color: white;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 1rem;
     text-align: center;
+
 }
 .text-p1{
     text-align: center;
@@ -48,6 +65,13 @@
     text-align: center;
     margin-bottom: 2rem;
 }
+.profile-button-container{
+    justify-content: center;
+    margin-left: 90px;
+    
+}
+
+
 @media (max-width: 768px) {
     .profile-container{
         flex-direction: column;

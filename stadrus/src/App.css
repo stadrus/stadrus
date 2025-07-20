@@ -1,13 +1,19 @@
-
-
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+   background-color: aqua;
+}
 p{
     color: rgb(85, 85, 85)
 }
+
 footer{
     position: relative;
     align-items: baseline;
     justify-items: center;
 }
+
 @media (max-width: 768px) {
     .bio-content, .skills-content, .projects-content {
         padding: 1rem;

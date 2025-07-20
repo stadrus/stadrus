@@ -1,7 +1,7 @@
 .skills-content{
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 0rem;
 }
 .skills-wrapper{
     width: 100%;
@@ -39,7 +39,7 @@
 .skills-card{
     border-radius: 30px;
     max-width: 600px;
-    padding: 2rem;
+    padding: 0rem;
     background: white;
 
 }
