@@ -21,8 +21,8 @@ section,
 }
 
 .profile-pic-container{
-   width: 300px;
-   height: 300px;
+   width: 400px;
+   height: 400px;
 }
 .profile-pic{
     width: 100%;
@@ -51,8 +51,8 @@ section,
 }
 .details-container{
     background-color: white;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 0rem;
+    border-radius: 0rem;
     text-align: center;
 
 }
@@ -67,7 +67,7 @@ section,
 }
 .profile-button-container{
     justify-content: center;
-    margin-left: 90px;
+    margin-left: 140px;
     
 }
 

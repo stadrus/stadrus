@@ -1,13 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    height: auto;
-   background-color: aqua;
 }
 p{
     color: rgb(85, 85, 85)
 }
-
+.resume-page{
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
 footer{
     position: relative;
     align-items: baseline;

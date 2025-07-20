@@ -1,6 +1,4 @@
-
-
-
+import "./contact.css"
 
 const Contact = () => {
     
@@ -19,7 +17,7 @@ const Contact = () => {
                 <div className="contact-upper-container">
                     <div className="contact-info-container">
                     <i className="fa-brands fa-linkedin"></i> 
-                    <p> <a href="https://www.linkedin.com/in/stacey-tadrus/">LinkedIn</a></p>
+                    <p><a href="https://www.linkedin.com/in/stacey-tadrus/">LinkedIn</a></p>
                     </div>
                </div>
             </div>

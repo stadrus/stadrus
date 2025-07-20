@@ -1,17 +1,17 @@
 header{
     margin: 0;
-    padding: 0;
-    
+    padding: 1rem;
+    background-color: #e0dbd8 ;
 }
 
 .header-nav{
     position: relative;
     align-items: baseline;
     justify-items: center;
+    
 }
 
 .header-links{
     font-size: 18px;
     text-decoration: none;
-    
 }

@@ -2,7 +2,7 @@ import CVButton from "../../buttons/CVButton"
 
 const Resume = () => {
     return (
-        <div>
+        <div className="resume-page">
             <h1>Resume</h1> <CVButton />
             <h2>Summary</h2>
             <p>Currently expanding technical skills through LaunchCode's software development courses (Class of 2025) with a focus on JavaScript, Java, React, and SQL. Gaining hands-on experience in both front-end and back-end development. Building on foundations as a web administrator into more advanced software development roles. 

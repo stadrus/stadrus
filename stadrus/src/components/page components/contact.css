@@ -1,0 +1,20 @@
+.contact-page{
+    margin-top: 5rem;
+   padding: 0rem;
+   margin-bottom: 20rem;
+}
+.contact-upper-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+.contact-info-container{
+    padding: 0rem;
+    border-radius: 4rem;
+    text-align: center;
+    justify-content: center;
+}
