@@ -1,4 +1,3 @@
-import './Bio.css';
 
 const Bio = () => {
     return (

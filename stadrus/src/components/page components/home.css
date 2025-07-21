@@ -1,22 +1,26 @@
-.home-container{
-    background-color: #e0dbd8;
-}
-.hero-card{
-     border-radius: 30px;
-    max-width: 600px;
-    background: white;
-}
 .hero-image{
     background: url(../../images/greenbackground.svg) no-repeat;
     background-size:cover;
     height: 700px;
     position: relative;
+    
+}
+.home-card{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(225,225,225,0.7);
+    padding: 17rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
  .home-text{
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     align-items: center;
@@ -46,7 +50,7 @@
 .home-description-card{
     text-align: center;
     position: absolute;
-    top:60%;
+    top:80%;
     left: 50%;
     transform: translate(-50%, -50%);
     align-items: center;

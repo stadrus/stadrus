@@ -9,7 +9,7 @@ const Home = () => {
     return (
       <div className="home-container">
       <div className="hero-image"></div>
-      <div className='hero-card'>
+      <div className='home-card'>
           <div className='home-text'>
             <h4>Hello, I'm</h4>
             <h2 className="home-title">Stacey Tadrus</h2>
